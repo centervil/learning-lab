@@ -1,0 +1,7 @@
+{
+  "name": "Learning Lab",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "mounts": [
+    "source=${localWorkspaceFolder}/.devcontainer/.gh-auth,target=/home/vscode/.config/gh,type=bind,consistency=cached"
+  ]
+}
