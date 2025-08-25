@@ -67,12 +67,18 @@ Each commit should be an "atomic" unit of work, representing a single, complete 
 
 ## 4. Project Structure
 
+This project follows a structured approach where each issue has its own dedicated directory for all related work. This ensures that all artifacts for a specific task are neatly organized.
+
+- **Issue-Specific Directories**: For each new issue, a directory named `issue-<issue-number>` is created at the root of the repository. This directory will house all the files, code, and other materials related to that specific issue.
+
+**Example Directory Structure:**
 ```
 ./
 ├── .github/
-├── development_logs/ # Work Records
-├── scripts/      # Various scripts (e.g., installation scripts)
-└── AGENTS.md       # This file
+├── development_logs/   # Contains logs of development sessions
+├── issue-<issue-number>/           # Dedicated directory for work related to Issue #16
+├── scripts/            # General-purpose scripts
+└── AGENTS.md           # This file, containing guidelines
 ```
 
 ## 5. Operational Guidelines
