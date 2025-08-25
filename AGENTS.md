@@ -76,7 +76,7 @@ This project follows a structured approach where each issue has its own dedicate
 ./
 ├── .github/
 ├── development_logs/   # Contains logs of development sessions
-├── issue-16/           # Dedicated directory for work related to Issue #16
+├── issue-<issue-number>/           # Dedicated directory for work related to Issue #16
 ├── scripts/            # General-purpose scripts
 └── AGENTS.md           # This file, containing guidelines
 ```
